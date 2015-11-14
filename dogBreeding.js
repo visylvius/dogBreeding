@@ -268,11 +268,7 @@ function breedDogs(father, mother) {
   }
   return litter;
 }
-function male(litter) {
-  filter(litter, function(element) {
-    return element.gender === male;
-  });
-}
+
 function highestWeight(litter) {
   var largestDog;
   var highestDogWeight = 0;
